@@ -1,0 +1,177 @@
+.mainheading {
+    margin: auto;
+    text-align: center;
+    background-color: aqua;
+    box-shadow: 0 0 50px yellow;
+}
+
+.pagecontent {
+    width: 100%;
+    float: left;
+    display: flex;
+    
+}
+
+.column {
+    flex: 1; 
+    padding: 20px;
+    background-color: black;
+    border: 1px solid aqua;
+    text-align: center;
+    position: relative;
+    
+}
+
+
+.buttons {
+    background-color: rgb(0, 229, 255); 
+    color: black;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline;
+    
+}
+
+.buttons:hover {
+    background-color: yellow;  
+}
+
+.services {
+    color: yellow;
+    background-color: black;
+    text-align: center;
+ 
+}
+
+.about {
+    color: yellow;
+    background-color: black;
+    text-align: center;
+}
+
+.contact-form { 
+    color: yellow;
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input::placeholder, textarea::placeholder {
+    color: black;
+    font-style: italic;
+}
+
+h1 {
+    background-color: aqua;
+    color: black;
+}
+
+.products {
+    display: flex;
+    width: 100%;
+    float: left;
+    
+}
+
+.card {
+    flex: 1;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid black;
+    width: 50%;
+}
+
+.card-title {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: aqua;
+    text-align: center;
+    font-weight: lighter;
+    box-shadow: 0 0 20px yellow;
+}
+
+
+.slideshow {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 300px;
+
+}
+
+.slide {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    opacity: 0;
+    animation: fade 12s infinite;
+}
+
+.slide:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.slide:nth-child(2) {
+    animation-delay: 4s;
+}
+
+.slide:nth-child(3) {
+    animation-delay: 8s;
+}
+
+@keyframes fade {
+    0%, 100% {
+        opacity: 0;
+    }
+    25%, 75% {
+        opacity: 1;
+    }
+}
+
+.servicescontainer {
+    display: flex;
+    width: 100%;
+}
+
+.service {
+    flex: 1;
+    width: 50%;
+    background-color: yellow;
+    border: 3px solid black;
+    text-align: center;
+    
+}
+
+h2 {
+    color: aqua;
+    background-color: black;
+}
+
+.about-content {
+    background-color: yellow;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    padding: 40px;
+    font: bolder italic 200;
+    
+    
+}
+
+
+
+
+
